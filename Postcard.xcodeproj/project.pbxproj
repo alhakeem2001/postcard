@@ -13,6 +13,8 @@
 		8162D9101A7AD577002A2760 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8162D90F1A7AD577002A2760 /* Images.xcassets */; };
 		8162D9131A7AD577002A2760 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8162D9111A7AD577002A2760 /* LaunchScreen.xib */; };
 		8162D91F1A7AD577002A2760 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8162D91E1A7AD577002A2760 /* PostcardTests.swift */; };
+		8162D9291A7AD871002A2760 /* Tariq-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8162D9281A7AD871002A2760 /* Tariq-1.jpg */; };
+		8162D92B1A7AEBEB002A2760 /* Tariq-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8162D92A1A7AEBEB002A2760 /* Tariq-3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		8162D9181A7AD577002A2760 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8162D91D1A7AD577002A2760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8162D91E1A7AD577002A2760 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		8162D9281A7AD871002A2760 /* Tariq-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tariq-1.jpg"; sourceTree = "<group>"; };
+		8162D92A1A7AEBEB002A2760 /* Tariq-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tariq-3.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				8162D9081A7AD577002A2760 /* AppDelegate.swift */,
 				8162D90A1A7AD577002A2760 /* ViewController.swift */,
 				8162D90C1A7AD577002A2760 /* Main.storyboard */,
+				8162D9281A7AD871002A2760 /* Tariq-1.jpg */,
+				8162D92A1A7AEBEB002A2760 /* Tariq-3.jpg */,
 				8162D90F1A7AD577002A2760 /* Images.xcassets */,
 				8162D9111A7AD577002A2760 /* LaunchScreen.xib */,
 				8162D9061A7AD577002A2760 /* Supporting Files */,
@@ -193,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8162D90E1A7AD577002A2760 /* Main.storyboard in Resources */,
+				8162D9291A7AD871002A2760 /* Tariq-1.jpg in Resources */,
 				8162D9131A7AD577002A2760 /* LaunchScreen.xib in Resources */,
+				8162D92B1A7AEBEB002A2760 /* Tariq-3.jpg in Resources */,
 				8162D9101A7AD577002A2760 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

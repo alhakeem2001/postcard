@@ -103,6 +103,15 @@
                                     <rect key="frame" x="16" y="87" width="368" height="55"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPL-l0-dN0">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="184" width="168" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -112,6 +121,7 @@
                                 <exclude reference="rWO-aJ-du6"/>
                                 <exclude reference="c7f-hz-ko6"/>
                                 <exclude reference="FlQ-LG-LEw"/>
+                                <exclude reference="CPL-l0-dN0"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +131,7 @@
                                 <include reference="rWO-aJ-du6"/>
                                 <include reference="c7f-hz-ko6"/>
                                 <include reference="FlQ-LG-LEw"/>
+                                <include reference="CPL-l0-dN0"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +140,7 @@
                         <outlet property="enterNameTextField" destination="acD-c2-7dv" id="Xsc-mW-2op"/>
                         <outlet property="mailButton" destination="c7f-hz-ko6" id="Qfw-1P-SNj"/>
                         <outlet property="messageLabel" destination="FlQ-LG-LEw" id="hTB-Ff-t5V"/>
+                        <outlet property="nameLabel" destination="CPL-l0-dN0" id="MwJ-9y-Gdw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
